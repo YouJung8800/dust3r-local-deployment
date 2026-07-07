@@ -75,3 +75,15 @@ python3 run_dust3r.py
 - [DUSt3R 공식 프로젝트 페이지](https://github.com/naver/dust3r)
 - [NAVER LABS Europe — DUSt3R 소개](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
 - [mini-dust3r (경량 추론 배포판)](https://github.com/pablovela5620/mini-dust3r)
+
+## 관련 연구와의 관계
+
+NAVER LABS Europe은 3D 비전 분야에서 여러 갈래의 연구를 진행하고 있으며,
+이 프로젝트에서 다룬 DUSt3R(카메라 파라미터 없는 3D 공간 복원)와
+GenFlow(CVPR 2024, 미지 객체의 6D pose 추정)는 별개의 태스크입니다.
+DUSt3R는 "장면 전체의 3D 구조"를 복원하는 데 초점을 두는 반면,
+GenFlow는 이미 3D 모델이 주어진 개별 객체의 "카메라 대비 정확한 위치/방향"을
+optical flow 기반으로 반복 정제(iterative refinement)하는 방식입니다.
+두 연구 모두 "렌더링된 이미지와 관측 이미지를 비교"한다는 철학을 공유하지만,
+전자는 비지도 방식의 장면 복원, 후자는 지도학습 기반의 정밀 정합이라는
+점에서 접근 방식이 다릅니다.
