@@ -1,3 +1,7 @@
+Markdown
+# 3D Scene Reconstruction & Refinement Pipeline
+![Demo](demo.gif)
+
 # DUSt3R 3D Reconstruction — Local Deployment & Troubleshooting Log
 
 카메라 파라미터 없이 몇 장의 사진만으로 3D 공간을 복원하는 NAVER LABS Europe의
