@@ -12,7 +12,6 @@
 - **Pipeline Logic:** DUSt3R의 전역적 복원(Global Reconstruction) 후, GenFlow의 국소적 정제(Local Refinement)를 결합하는 파이프라인으로 설계하였습니다.
 
 # DUSt3R 3D Reconstruction — Local Deployment & Troubleshooting Log
-
 카메라 파라미터 없이 몇 장의 사진만으로 3D 공간을 복원하는 NAVER LABS Europe의
 연구 모델 **DUSt3R**를 로컬(Apple Silicon MacBook) 환경에 직접 설치하고
 실행에 성공한 프로젝트입니다.
