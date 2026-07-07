@@ -5,7 +5,6 @@
 
 # 3D Scene Reconstruction & Refinement Pipeline
 ![Demo](demo.gif)
-
 ## Technical Approach: Analysis & Refinement
 - **Scene Reconstruction (DUSt3R):** 입력된 이미지 세트로부터 비지도 학습 기반의 장면 구조를 복원합니다.
 - **6D Pose Refinement (GenFlow Perspective):** 복원된 3D 구조를 바탕으로, 목표 객체의 포즈를 optical flow를 활용하여 반복적으로 정제(Iterative Refinement)합니다.
