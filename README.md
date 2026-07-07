@@ -4,9 +4,7 @@
 - **Robustness:** Optical flow 기반의 iterative refinement를 통해 가려진 객체(Occlusion)에 대한 6D 포즈 정확도 향상.
 
 # 3D Scene Reconstruction & Refinement Pipeline
-## 결과물 미리보기
-![3D Scene Reconstruction Result](result_preview.png)
-## Technical Approach: Analysis & Refinement
+Technical Approach: Analysis & Refinement
 - **Scene Reconstruction (DUSt3R):** 입력된 이미지 세트로부터 비지도 학습 기반의 장면 구조를 복원합니다.
 - **6D Pose Refinement (GenFlow Perspective):** 복원된 3D 구조를 바탕으로, 목표 객체의 포즈를 optical flow를 활용하여 반복적으로 정제(Iterative Refinement)합니다.
 - **Pipeline Logic:** DUSt3R의 전역적 복원(Global Reconstruction) 후, GenFlow의 국소적 정제(Local Refinement)를 결합하는 파이프라인으로 설계하였습니다.
