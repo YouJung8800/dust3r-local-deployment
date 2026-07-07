@@ -106,4 +106,3 @@ optical flow 기반으로 반복 정제(iterative refinement)하는 방식입니
 - **Efficiency:** DUSt3R의 대규모 장면 복원 성능을 최적화하기 위해, 반복 정제(Iterative Refinement) 과정에서 불필요한 연산을 줄이는 `cascade` 구조를 코드에 고려했습니다.
 - **Reference:** - [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/abs/2312.14132)
     - [GenFlow: Generalizable Recurrent Flow for 6D Pose Refinement](https://arxiv.org/abs/2403.14120)
-    - 
