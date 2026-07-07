@@ -100,3 +100,10 @@ optical flow 기반으로 반복 정제(iterative refinement)하는 방식입니
 두 연구 모두 "렌더링된 이미지와 관측 이미지를 비교"한다는 철학을 공유하지만,
 전자는 비지도 방식의 장면 복원, 후자는 지도학습 기반의 정밀 정합이라는
 점에서 접근 방식이 다릅니다.
+
+## 🛠 Implementation Details & Future Work
+- **GenFlow Refinement Implementation:** 단순히 논문을 읽는 데 그치지 않고, 복원된 3D 포인트 클라우드에 GenFlow의 Optical Flow 정제 로직을 결합하기 위한 인터페이스를 설계 중입니다.
+- **Efficiency:** DUSt3R의 대규모 장면 복원 성능을 최적화하기 위해, 반복 정제(Iterative Refinement) 과정에서 불필요한 연산을 줄이는 `cascade` 구조를 코드에 고려했습니다.
+- **Reference:** - [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/abs/2312.14132)
+    - [GenFlow: Generalizable Recurrent Flow for 6D Pose Refinement](https://arxiv.org/abs/2403.14120)
+    - 
