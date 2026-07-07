@@ -1,3 +1,7 @@
+## 💡 Technical Contribution
+- **End-to-End Pipeline:** DUSt3R의 전역적 장면 복원과 GenFlow의 국소적 반복 정제를 결합한 하이브리드 파이프라인.
+- **Novelty:** 기존 비지도 학습 방식의 한계를 3D 셰이프 제약 조건(Shape constraint)을 통해 극복.
+- **Robustness:** Optical flow 기반의 iterative refinement를 통해 가려진 객체(Occlusion)에 대한 6D 포즈 정확도 향상.
 # 3D Scene Reconstruction & Refinement Pipeline
 
 ![Demo](demo.gif)
