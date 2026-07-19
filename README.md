@@ -1,3 +1,7 @@
+![pipeline](dust3r_architecture_v2.png)
+
+![Python](https://img.shields.io/badge/Python-3.13-blue) ![DUSt3R](https://img.shields.io/badge/Model-DUSt3R-purple) ![Platform](https://img.shields.io/badge/Apple_Silicon-MPS-lightgrey)
+
 ## 💡 Technical Contribution
 - **End-to-End Pipeline:** DUSt3R의 전역적 장면 복원과 GenFlow의 국소적 반복 정제를 결합한 하이브리드 파이프라인.
 - **Novelty:** 기존 비지도 학습 방식의 한계를 3D 셰이프 제약 조건(Shape constraint)을 통해 극복.
